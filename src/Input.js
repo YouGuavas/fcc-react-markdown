@@ -13,7 +13,7 @@ export class Input extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			userInput: ''
+			userInput: 'Just start typing!'
 		};
 		this.handleUserInput = this.handleUserInput.bind(this);
 	}
