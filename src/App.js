@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { Input } from './Input.jsx';
+import { Input } from './Input.js';
 import './App.css';
 
 function App(props) {
