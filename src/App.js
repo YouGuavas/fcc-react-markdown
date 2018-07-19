@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Input } from './Input.jsx';
 import './App.css';
-import { Input } from './Input';
 
-class App extends Component {
-  render() {
+function App(props) {
     return (
       <div className="App">
         <header className="App-header">
@@ -15,7 +14,6 @@ class App extends Component {
         </section>
       </div>
     );
-  }
 }
 
 export default App;
