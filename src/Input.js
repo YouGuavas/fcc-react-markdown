@@ -11,7 +11,7 @@ export class Input extends Component {
 	}
 	constructor(props) {
 		super(props);
-		const headers = '# Header 1\n## Header 2'
+		const headers = '# Header 1\n### Header 2'
 		const font = '**bold**\n\n*italic*'
 		const list = '1. Item 1\n2. Item 2\n\n- Item\n- Item'
 
