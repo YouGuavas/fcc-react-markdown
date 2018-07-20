@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './Input.css';
 import ReactMarkdown from 'react-markdown';
-//import marked from 'react-marked';
-const marked = require('react-marked');
+
 
 export class Input extends Component {
 	handleUserInput(e) {
@@ -12,8 +11,12 @@ export class Input extends Component {
 	}
 	constructor(props) {
 		super(props);
+		const headers = '# Header 1\n## Header 2'
+		const font = '**bold**\n\n*italic*'
+		const list = '1. Item 1\n2. Item 2\n\n- Item\n- Item'
+
 		this.state = {
-			userInput: 'Just start typing!'
+			userInput: `Just start typing!\n\nExamples:\n${headers}\n${font}\n\n${list}`
 		};
 		this.handleUserInput = this.handleUserInput.bind(this);
 	}
