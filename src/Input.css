@@ -1,7 +1,7 @@
 .markdownText {
   margin-top: 5px;
   resize: none;
-  width:48%;
+  width:50%;
   background-color: #222;
   color:white;
   height:595px;
@@ -12,10 +12,11 @@
   border-top: 1px solid black;
   word-wrap: break-word;
   overflow-y: scroll;
+  box-sizing: border-box;
 }
 .scrollable {
 	height:595px;
-	width:48%;
+	width:50%;
 	border:1px solid grey;
 	border-bottom: 1px solid white;
 	float:left;
@@ -23,6 +24,7 @@
 	word-wrap: break-word;
 	padding: 0px 8px;
 	margin-top: 0;
+	box-sizing: border-box;
 }
 @media screen and (max-width: 980px) {
 	.markdownText {
