@@ -11,12 +11,23 @@ export class Input extends Component {
 	}
 	constructor(props) {
 		super(props);
-		const headers = '# Header 1\n### Header 2'
-		const font = '**bold**\n\n*italic*'
-		const list = '1. Item 1\n2. Item 2\n\n- Item\n- Item'
+		const headers = `# Header 1  
+### Header 2`
+		const font = `**bold**  
+*italic*`
+		const list = `1. Item 1  
+2. Item 2  
+	* Sub-item  
+- Item  
+- Item`
 
 		this.state = {
-			userInput: `Just start typing!\n\nExamples:\n${headers}\n${font}\n\n${list}`
+			userInput: `Just start typing!  
+Examples:  
+${headers}  
+${font}  
+  
+${list}`
 		};
 		this.handleUserInput = this.handleUserInput.bind(this);
 	}
