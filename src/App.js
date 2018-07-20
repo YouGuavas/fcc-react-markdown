@@ -1,6 +1,5 @@
 import React from 'react';
 import { Input } from './Input.js';
-import './App.css';
 
 function App(props) {
     return (
