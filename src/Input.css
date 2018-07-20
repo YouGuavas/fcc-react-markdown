@@ -9,6 +9,7 @@
   padding: 0px 8px;
   margin-top: 0;
   border: 1px solid #222;
+  border-top: 1px solid black;
   word-wrap: break-word;
   overflow-y: scroll;
 }
@@ -16,6 +17,7 @@
 	height:595px;
 	width:48%;
 	border:1px solid grey;
+	border-bottom: 1px solid white;
 	float:left;
 	overflow-y: scroll;
 	word-wrap: break-word;
